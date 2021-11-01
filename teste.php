@@ -1,8 +1,11 @@
 <?php
 
-use DgCrud\DgCrud\DatabaseFactory;
-
 require './vendor/autoload.php';
 
-$conn = new DatabaseFactory();
-$conn->connect();
+define('DB_CONFIG', [
+    'driver' => 'mysql',
+    'host' => 'localhost',
+    'db_name' => 'db_teste',
+    'db_user' => 'root',
+    'db_passwd' => ''
+]);
