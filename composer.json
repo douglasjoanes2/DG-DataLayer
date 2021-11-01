@@ -1,0 +1,19 @@
+{
+    "name": "dougl/dg_crud",
+    "description": "Sistema de crud para meus projetos",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "douglasjoanes2",
+            "email": "douglasjoanes2@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DgCrud\\DgCrud\\": "src/"
+        }
+    }
+}
