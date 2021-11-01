@@ -1,6 +1,6 @@
 {
     "name": "dougl/datalayer",
-    "description": "Sistema de crud para meus projetos",
+    "description": "Componente baseado nos padrões MVC utilizando a biblioteca PDO com prepared statements",
     "type": "library",
     "license": "MIT",
     "authors": [
