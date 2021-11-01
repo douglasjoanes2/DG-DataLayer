@@ -4,7 +4,7 @@ O datalayer é um componente baseado nos padrões MVC utilizando a biblioteca PD
 ## Instalação
 Sua instalação pode ser feita através do composer com o seguinte comando:
 ```
-composer require "dougl\datalayer"
+composer require dougl/datalayer
 ```
 
 ## Documentação
