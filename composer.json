@@ -1,5 +1,5 @@
 {
-    "name": "dougl/dg_crud",
+    "name": "dougl/datalayer",
     "description": "Sistema de crud para meus projetos",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "DgCrud\\DgCrud\\": "src/"
+            "Dougl\\DataLayer\\": "src/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace DgCrud\DgCrud;
+namespace Dougl\DataLayer;
 
 use PDOException;
 
@@ -121,6 +121,16 @@ class DataLayer
     {
         return ($this->data->$name ?? null);
     }
+
+    public function getData()
+    {
+        return $this->data;
+    }
+
+    public function getFail()
+    {
+        return $this->fail;
+    }
     
     /**
      * Retorna todas as linhas da tabela
@@ -141,10 +151,9 @@ class DataLayer
      *
      * @return object|null
      */
-    public function findByPrimaryKey()
+    public function findByPrimaryKey( $primary_key )
     {
-        $primary = $this->primary_key;
-        $res     = $this->read("SELECT * FROM %s WHERE {$this->primary_key}=?", [$this->data->$primary], false);
+        $res     = $this->read("SELECT * FROM %s WHERE {$this->primary_key}=?", [$primary_key], false);
         if ( !$res ) {
             return '';
         }

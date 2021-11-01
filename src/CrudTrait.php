@@ -1,6 +1,6 @@
 <?php
 
-namespace DgCrud\DgCrud;
+namespace Dougl\DataLayer;
 
 trait CrudTrait
 {
